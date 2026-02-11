@@ -1,0 +1,33 @@
+{
+  "name": "beckend_api_express",
+  "version": "1.0.0",
+  "description": "Backend API com Express, Prisma ORM e Zod",
+  "keywords": [
+    "api",
+    "express",
+    "prisma",
+    "zod",
+    "mvc",
+    "middlelewares"
+  ],
+  "homepage": "https://github.com/KesleyMarco/Backend_API_Express#readme",
+  "bugs": {
+    "url": "https://github.com/KesleyMarco/Backend_API_Express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KesleyMarco/Backend_API_Express.git"
+  },
+  "license": "ISC",
+  "author": "Kesley Marco",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scr/server.js",
+    "dev": "node --watch ./scr/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}
