@@ -41,3 +41,14 @@ MODEL
 
 CONTROLLER
 -controle de fluxo de entrada, processamento e saida de dados
+
+M.V.C?
+Model, View, Controller
+
+o q é um ORM?
+ORM (Object-Relational Mapping, ou Mapeamento Objeto-Relacional) é uma técnica de desenvolvimento que traduz dados entre bancos de dados relacionais e linguagens orientadas a objetos. Ele permite que programadores manipulem registros do banco como objetos de código (ex: salvar uma classe Usuario no banco sem escrever SQL), aumentando a produtividade, segurança e facilitando a manutenção
+
+### comandos prisma
+
+init
+npx prisma init --datasource-provider sqlserver
