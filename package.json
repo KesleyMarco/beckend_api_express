@@ -21,10 +21,10 @@
   "license": "ISC",
   "author": "Kesley Marco",
   "type": "module",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node ./scr/server.js",
-    "dev": "node --watch --env-file=.env ./scr/server.js",
+    "start": "node src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js",
     "studio": "npx prisma studio"
   },
   "dependencies": {
