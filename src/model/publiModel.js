@@ -9,3 +9,11 @@ export const createPublication = async (publication) => {
 export const getpublications = async () => {
     return await prisma.publication.findMany()
 }
+
+export const deletePublication = async (id) => {
+    return await prisma.publication.delete({
+        where: {
+            id: id
+        }
+    })
+}
